@@ -19,7 +19,7 @@ def grade(grade)
   roster[grade]
 end
 
- def sort(student)
+ def sort
    sort = {}
    roster.each {|grade, student| sort[grade] = student.sort}
    sort
