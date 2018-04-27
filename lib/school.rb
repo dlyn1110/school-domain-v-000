@@ -12,7 +12,7 @@ if @roster.include?(grade)
    @roster[grade] << name
  else
    @roster[grade] = [name]
-end
+ end
 end
 
 def grade(grade)
