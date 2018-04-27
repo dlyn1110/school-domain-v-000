@@ -17,4 +17,7 @@ def grade(grade)
   @roster[grade]
 end
 
+ def sort(student)
+ end
+
 end
